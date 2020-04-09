@@ -87,8 +87,8 @@
     <Connector port="443" 
                maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
                clientAuth="false" sslProtocol="TLS" 
-               SSLCertificateFile="${user.home}/dev.navionics.com.crt"
-               SSLCertificateKeyFile="${user.home}/dev.navionics.com.key"
+               SSLCertificateFile="${user.home}/dev.test.com.crt"
+               SSLCertificateKeyFile="${user.home}/dev.test.com.key"
                SSLPassword="hide"/>
    
 

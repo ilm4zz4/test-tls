@@ -4,5 +4,4 @@ tomcat:
      - "8080:80" 
      - "8443:443"
  volumes: 
-     - ./data/certs/dev.test.com:/root
-     - ./data/certs/myCA.key:/root
+     - ./data/certs/:/root
