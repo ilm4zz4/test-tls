@@ -1,2 +1,3 @@
 data/*
 nginx/data/*
+tomcat-catalina/data/*

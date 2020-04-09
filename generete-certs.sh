@@ -15,3 +15,4 @@ openssl x509 -req -in ${DST}/dev.test.com.csr -CA ${DST}/myCA.pem -CAkey ${DST}/
 
 rm -rf nginx/data
 cp -r data nginx
+cp -r data tomcat-catalina

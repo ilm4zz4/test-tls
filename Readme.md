@@ -48,7 +48,14 @@ openssl pkcs12 -export -out ${DST}/certificate.pfx -inkey ${DST}/myCA.key  -in $
 ```
 
  
-## Test
+## Test nginx Server
 ```
+cd nginx
+docker-compose up --build --force-recreate
+````
+
+## Test tomcat Server
+```
+cd tomcat-catalina
 docker-compose up --build --force-recreate
 ````
